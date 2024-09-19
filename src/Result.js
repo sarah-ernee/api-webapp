@@ -2,7 +2,7 @@ import React from "react";
 
 const Result = ({ data }) => {
   return (
-    <div>
+    <div style={{ marginTop: "30px" }}>
       <h2>Response</h2>
       <p>
         <strong>Message:</strong> {data.message}
